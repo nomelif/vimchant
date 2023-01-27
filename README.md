@@ -3,9 +3,6 @@ Vimchant
 
 **Enchant-based on-the-fly spell-checker for Vim text editor**
 
-*Note:* This program is not maintained. You are free to adopt it,
-maintain and develop it further.
-
 Vim 7.0 introduced excellent spell-checking features which made external
 spell-checker plugins pretty much obsolete. Unfortunately not all
 languages can be supported through Vim’s dictionary format. Either the
@@ -40,11 +37,17 @@ Vim configuration file:
 
 See the included Vim manual for more info.
 
+### Vimchant flags words like 'and' and 'or' as misspelled
+
+You enchant likely throws a warning that gets interpreted as a list of misspelled words. Run `enchant -l` or `enchant-2 -l` (depending on which version you have installed) to check. See [the relevant issue](https://github.com/nomelif/vimchant/issues/1) for more information.
+
 
 Author and License
 ------------------
 
-Author: Teemu Likonen <<tlikonen@iki.fi>>
+Current maintainer: Théo Friberg <<theo.friberg@helsinki.fi>>
+
+Author of the original code: Teemu Likonen <<tlikonen@iki.fi>>
 
 OpenPGP key: [6965F03973F0D4CA22B9410F0F2CAE0E07608462][PGP]
 
