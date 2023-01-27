@@ -2,7 +2,8 @@
 "
 " Version:	1.1 (2008-08-31)
 " Maintainer:	Teemu Likonen <tlikonen@iki.fi>
-" License:	Public domain
+" License:	Creative Commons CC0 (public domain dedication)
+"               https://creativecommons.org/publicdomain/zero/1.0/legalcode
 "
 " GetLatestVimScripts: 2345 1 :AutoInstall: Vimchant
 
